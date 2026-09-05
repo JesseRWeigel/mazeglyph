@@ -312,6 +312,59 @@ step "privacy scan with planted controls"
 "$PY" scripts/privacy_scan.py | fold -s -w 96 | sed 's/^/   /'
 check "${PIPESTATUS[0]}"
 
+step "the published page is what the builder produces, and reaches for nothing"
+"$PY" - <<'EOF'
+import hashlib, pathlib, re, subprocess, sys
+
+ROOT = pathlib.Path(".").resolve()
+PAGE = ROOT / "docs" / "index.html"
+
+# REBUILT AND COMPARED, NOT JUST READ. A page committed once and never regenerated drifts away
+# from the code that made it, and the drift is invisible because the page still looks fine. The
+# builder decodes every symbol it draws, so rebuilding here also re-runs that check.
+before = PAGE.read_bytes() if PAGE.is_file() else b""
+done = subprocess.run([sys.executable, "scripts/build_page.py"], capture_output=True, text=True)
+if done.returncode != 0:
+    print("   the page builder failed:")
+    print("   " + (done.stderr or done.stdout).strip().replace("\n", "\n   "))
+    raise SystemExit(1)
+after = PAGE.read_bytes()
+print("   " + done.stdout.strip())
+if before and before != after:
+    print(f"   FAIL the committed page is not what the builder produces "
+          f"({len(before)} bytes committed, {len(after)} bytes rebuilt)")
+    raise SystemExit(1)
+
+text = after.decode("utf-8")
+problems = []
+
+# Nothing may be fetched. A page that loads a font, a script or an image from somewhere else stops
+# working when that somewhere else does, and tells whoever runs it that a reader visited.
+for pattern, what in ((r"https?://(?!jesserweigel\.github\.io|github\.com|www\.w3\.org)",
+                       "an outbound url"),
+                      (r"<script[^>]+src=", "a script from another file"),
+                      (r"<link[^>]+href=\"http", "a stylesheet from another file"),
+                      (r"@import", "an imported stylesheet")):
+    hits = re.findall(pattern, text)
+    if hits:
+        problems.append(f"{what}: {len(hits)} occurrence(s), first {hits[0]!r}")
+
+if "/home/" in text or "/Users/" in text:
+    problems.append("an absolute home path")
+
+# The symbols have to be there. An empty page passes every check above.
+symbols = text.count("<svg")
+if symbols < 11:
+    problems.append(f"only {symbols} drawings on the page, expected at least 11")
+
+print(f"   {len(text) / 1024:.1f} KB, {symbols} drawings, "
+      f"sha256 {hashlib.sha256(after).hexdigest()[:16]}")
+for message in problems:
+    print(f"   FAIL {message}")
+raise SystemExit(1 if problems else 0)
+EOF
+check $?
+
 step "the README is finished and carries this script's own success line"
 "$PY" - <<'EOF'
 import re, sys

@@ -2,6 +2,10 @@
 
 A maze whose walls are a scannable QR code, carved inside the error correction budget.
 
+**[Scan one and solve it](https://jesserweigel.github.io/mazeglyph/)**. The page draws the same
+symbol twice, once as a code your phone will read and once with the maze and its solution traced
+over it, and lets you watch the carving spend its budget until the carver starts refusing branches.
+
 Catalog task: `WEIRD-031`. One of a public catalog of build ideas:
 https://github.com/JesseRWeigel/722-things-to-build
 

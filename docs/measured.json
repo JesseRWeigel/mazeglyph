@@ -1,0 +1,2771 @@
+{
+  "a_damaged_format_and_a_ruined_block": {
+    "a length longer than the symbol": {
+      "parsed": false,
+      "reason": "the header says 255 bytes and only 5 are left in the symbol"
+    },
+    "both copies of the format destroyed": {
+      "problem_mentions_the_format": true,
+      "read": false
+    },
+    "one block flooded": {
+      "blocks_beyond_repair": 1,
+      "modules_flipped": 344,
+      "problem_mentions_repair": true,
+      "read": false
+    },
+    "one copy of the format destroyed": {
+      "format_bit_errors": 0,
+      "level": "",
+      "mask": -1,
+      "read": false
+    },
+    "three bits of the format flipped": {
+      "format_bit_errors": 0,
+      "read": true
+    }
+  },
+  "carving_by_version": {
+    "version 10 level H": {
+      "blocks": 8,
+      "branches": 479,
+      "branches_refused_for_want_of_budget": 16,
+      "budget_per_block": 14,
+      "codewords_the_decoder_had_to_correct": 110,
+      "corrupted_codewords": 110,
+      "dead_ends": 127,
+      "decodes": true,
+      "decodes_to_the_url": true,
+      "entrance": [
+        7,
+        9
+      ],
+      "exit": [
+        56,
+        56
+      ],
+      "fraction_of_the_worst_block_budget_used": 1.0,
+      "independent_loops": 247,
+      "modules_flipped": 193,
+      "solution_length": 105,
+      "walkable_cells": 991,
+      "worst_block_corrupted": 14
+    },
+    "version 4 level H": {
+      "blocks": 4,
+      "branches": 220,
+      "branches_refused_for_want_of_budget": 60,
+      "budget_per_block": 8,
+      "codewords_the_decoder_had_to_correct": 32,
+      "corrupted_codewords": 32,
+      "dead_ends": 28,
+      "decodes": true,
+      "decodes_to_the_url": true,
+      "entrance": [
+        7,
+        9
+      ],
+      "exit": [
+        32,
+        32
+      ],
+      "fraction_of_the_worst_block_budget_used": 1.0,
+      "independent_loops": 137,
+      "modules_flipped": 84,
+      "solution_length": 49,
+      "walkable_cells": 338,
+      "worst_block_corrupted": 8
+    },
+    "version 5 level H": {
+      "blocks": 4,
+      "branches": 204,
+      "branches_refused_for_want_of_budget": 29,
+      "budget_per_block": 11,
+      "codewords_the_decoder_had_to_correct": 44,
+      "corrupted_codewords": 44,
+      "dead_ends": 35,
+      "decodes": true,
+      "decodes_to_the_url": true,
+      "entrance": [
+        7,
+        9
+      ],
+      "exit": [
+        36,
+        36
+      ],
+      "fraction_of_the_worst_block_budget_used": 1.0,
+      "independent_loops": 113,
+      "modules_flipped": 99,
+      "solution_length": 57,
+      "walkable_cells": 361,
+      "worst_block_corrupted": 11
+    },
+    "version 6 level H": {
+      "blocks": 4,
+      "branches": 301,
+      "branches_refused_for_want_of_budget": 27,
+      "budget_per_block": 14,
+      "codewords_the_decoder_had_to_correct": 52,
+      "corrupted_codewords": 52,
+      "dead_ends": 45,
+      "decodes": true,
+      "decodes_to_the_url": true,
+      "entrance": [
+        7,
+        9
+      ],
+      "exit": [
+        40,
+        40
+      ],
+      "fraction_of_the_worst_block_budget_used": 1.0,
+      "independent_loops": 197,
+      "modules_flipped": 120,
+      "solution_length": 65,
+      "walkable_cells": 504,
+      "worst_block_corrupted": 14
+    },
+    "version 7 level H": {
+      "blocks": 5,
+      "branches": 310,
+      "branches_refused_for_want_of_budget": 36,
+      "budget_per_block": 13,
+      "codewords_the_decoder_had_to_correct": 65,
+      "corrupted_codewords": 65,
+      "dead_ends": 68,
+      "decodes": true,
+      "decodes_to_the_url": true,
+      "entrance": [
+        7,
+        9
+      ],
+      "exit": [
+        44,
+        44
+      ],
+      "fraction_of_the_worst_block_budget_used": 1.0,
+      "independent_loops": 176,
+      "modules_flipped": 128,
+      "solution_length": 73,
+      "walkable_cells": 567,
+      "worst_block_corrupted": 13
+    },
+    "version 8 level H": {
+      "blocks": 6,
+      "branches": 411,
+      "branches_refused_for_want_of_budget": 16,
+      "budget_per_block": 13,
+      "codewords_the_decoder_had_to_correct": 78,
+      "corrupted_codewords": 78,
+      "dead_ends": 112,
+      "decodes": true,
+      "decodes_to_the_url": true,
+      "entrance": [
+        7,
+        9
+      ],
+      "exit": [
+        48,
+        48
+      ],
+      "fraction_of_the_worst_block_budget_used": 1.0,
+      "independent_loops": 209,
+      "modules_flipped": 165,
+      "solution_length": 85,
+      "walkable_cells": 764,
+      "worst_block_corrupted": 13
+    },
+    "version 9 level H": {
+      "blocks": 8,
+      "branches": 355,
+      "branches_refused_for_want_of_budget": 8,
+      "budget_per_block": 12,
+      "codewords_the_decoder_had_to_correct": 89,
+      "corrupted_codewords": 89,
+      "dead_ends": 80,
+      "decodes": true,
+      "decodes_to_the_url": true,
+      "entrance": [
+        7,
+        9
+      ],
+      "exit": [
+        52,
+        52
+      ],
+      "fraction_of_the_worst_block_budget_used": 1.0,
+      "independent_loops": 197,
+      "modules_flipped": 171,
+      "solution_length": 91,
+      "walkable_cells": 704,
+      "worst_block_corrupted": 12
+    }
+  },
+  "command_line": {
+    "a bigger version": {
+      "argv": [
+        "--version",
+        "10",
+        "--json"
+      ],
+      "budget_per_block": 14,
+      "corrupted_codewords": 98,
+      "decodes_to_the_url": true,
+      "exit_code": 0,
+      "independent_loops": 235,
+      "level": "H",
+      "maze_is_solvable": true,
+      "modules_flipped": 174,
+      "size": 57,
+      "solution_length": 107,
+      "version": 10,
+      "walkable_cells": 778,
+      "worst_block_corrupted": 14
+    },
+    "a different seed": {
+      "argv": [
+        "--version",
+        "8",
+        "--seed",
+        "5",
+        "--json"
+      ],
+      "budget_per_block": 13,
+      "corrupted_codewords": 78,
+      "decodes_to_the_url": true,
+      "exit_code": 0,
+      "independent_loops": 206,
+      "level": "H",
+      "maze_is_solvable": true,
+      "modules_flipped": 156,
+      "size": 49,
+      "solution_length": 87,
+      "version": 8,
+      "walkable_cells": 710,
+      "worst_block_corrupted": 13
+    },
+    "a lower correction level": {
+      "argv": [
+        "--version",
+        "8",
+        "--level",
+        "L",
+        "--json"
+      ],
+      "budget_per_block": 12,
+      "corrupted_codewords": 24,
+      "decodes_to_the_url": true,
+      "exit_code": 0,
+      "independent_loops": 92,
+      "level": "L",
+      "maze_is_solvable": true,
+      "modules_flipped": 66,
+      "size": 49,
+      "solution_length": 83,
+      "version": 8,
+      "walkable_cells": 442,
+      "worst_block_corrupted": 12
+    },
+    "a negative branch count": {
+      "argv": [
+        "--version",
+        "6",
+        "--branches",
+        "-1"
+      ],
+      "exit_code": 3
+    },
+    "a scale of zero": {
+      "argv": [
+        "--version",
+        "6",
+        "--scale",
+        "0"
+      ],
+      "exit_code": 3
+    },
+    "an ordinary run": {
+      "argv": [
+        "--version",
+        "6",
+        "--json"
+      ],
+      "budget_per_block": 14,
+      "corrupted_codewords": 56,
+      "decodes_to_the_url": true,
+      "exit_code": 0,
+      "independent_loops": 190,
+      "level": "H",
+      "maze_is_solvable": true,
+      "modules_flipped": 128,
+      "size": 41,
+      "solution_length": 65,
+      "version": 6,
+      "walkable_cells": 522,
+      "worst_block_corrupted": 14
+    },
+    "no branches at all": {
+      "argv": [
+        "--version",
+        "8",
+        "--branches",
+        "0",
+        "--json"
+      ],
+      "budget_per_block": 13,
+      "corrupted_codewords": 7,
+      "decodes_to_the_url": true,
+      "exit_code": 0,
+      "independent_loops": 45,
+      "level": "H",
+      "maze_is_solvable": true,
+      "modules_flipped": 9,
+      "size": 49,
+      "solution_length": 103,
+      "version": 8,
+      "walkable_cells": 315,
+      "worst_block_corrupted": 2
+    },
+    "the smallest version that fits": {
+      "argv": [
+        "--json"
+      ],
+      "budget_per_block": 8,
+      "corrupted_codewords": 32,
+      "decodes_to_the_url": true,
+      "exit_code": 0,
+      "independent_loops": 112,
+      "level": "H",
+      "maze_is_solvable": true,
+      "modules_flipped": 78,
+      "size": 33,
+      "solution_length": 49,
+      "version": 4,
+      "walkable_cells": 340,
+      "worst_block_corrupted": 8
+    },
+    "too much text for any version": {
+      "argv": [],
+      "exit_code": 3
+    },
+    "too much text for the version": {
+      "argv": [
+        "--version",
+        "1"
+      ],
+      "exit_code": 3
+    }
+  },
+  "encode_then_decode": {
+    "version 1 level H": {
+      "layout": {
+        "blocks": 1,
+        "correctable_codewords": 8,
+        "data_codewords": 9,
+        "ec_codewords": 17,
+        "ec_per_block": 17,
+        "level": "H",
+        "total_codewords": 26,
+        "version": 1
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "3 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "7 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 1 level L": {
+      "layout": {
+        "blocks": 1,
+        "correctable_codewords": 3,
+        "data_codewords": 19,
+        "ec_codewords": 7,
+        "ec_per_block": 7,
+        "level": "L",
+        "total_codewords": 26,
+        "version": 1
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "17 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "8 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 1 level M": {
+      "layout": {
+        "blocks": 1,
+        "correctable_codewords": 5,
+        "data_codewords": 16,
+        "ec_codewords": 10,
+        "ec_per_block": 10,
+        "level": "M",
+        "total_codewords": 26,
+        "version": 1
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "14 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "7 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 1 level Q": {
+      "layout": {
+        "blocks": 1,
+        "correctable_codewords": 6,
+        "data_codewords": 13,
+        "ec_codewords": 13,
+        "ec_per_block": 13,
+        "level": "Q",
+        "total_codewords": 26,
+        "version": 1
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "11 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "5 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 10 level H": {
+      "layout": {
+        "blocks": 8,
+        "correctable_codewords": 112,
+        "data_codewords": 122,
+        "ec_codewords": 224,
+        "ec_per_block": 28,
+        "level": "H",
+        "total_codewords": 346,
+        "version": 10
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "119 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "59 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 10 level L": {
+      "layout": {
+        "blocks": 4,
+        "correctable_codewords": 36,
+        "data_codewords": 274,
+        "ec_codewords": 72,
+        "ec_per_block": 18,
+        "level": "L",
+        "total_codewords": 346,
+        "version": 10
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "135 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "271 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 10 level M": {
+      "layout": {
+        "blocks": 5,
+        "correctable_codewords": 65,
+        "data_codewords": 216,
+        "ec_codewords": 130,
+        "ec_per_block": 26,
+        "level": "M",
+        "total_codewords": 346,
+        "version": 10
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "106 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "213 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 10 level Q": {
+      "layout": {
+        "blocks": 8,
+        "correctable_codewords": 96,
+        "data_codewords": 154,
+        "ec_codewords": 192,
+        "ec_per_block": 24,
+        "level": "Q",
+        "total_codewords": 346,
+        "version": 10
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "151 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "75 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 2 level H": {
+      "layout": {
+        "blocks": 1,
+        "correctable_codewords": 14,
+        "data_codewords": 16,
+        "ec_codewords": 28,
+        "ec_per_block": 28,
+        "level": "H",
+        "total_codewords": 44,
+        "version": 2
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "14 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "7 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 2 level L": {
+      "layout": {
+        "blocks": 1,
+        "correctable_codewords": 5,
+        "data_codewords": 34,
+        "ec_codewords": 10,
+        "ec_per_block": 10,
+        "level": "L",
+        "total_codewords": 44,
+        "version": 2
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "16 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "32 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 2 level M": {
+      "layout": {
+        "blocks": 1,
+        "correctable_codewords": 8,
+        "data_codewords": 28,
+        "ec_codewords": 16,
+        "ec_per_block": 16,
+        "level": "M",
+        "total_codewords": 44,
+        "version": 2
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "13 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "26 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 2 level Q": {
+      "layout": {
+        "blocks": 1,
+        "correctable_codewords": 11,
+        "data_codewords": 22,
+        "ec_codewords": 22,
+        "ec_per_block": 22,
+        "level": "Q",
+        "total_codewords": 44,
+        "version": 2
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "10 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "20 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 3 level H": {
+      "layout": {
+        "blocks": 2,
+        "correctable_codewords": 22,
+        "data_codewords": 26,
+        "ec_codewords": 44,
+        "ec_per_block": 22,
+        "level": "H",
+        "total_codewords": 70,
+        "version": 3
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "12 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "24 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 3 level L": {
+      "layout": {
+        "blocks": 1,
+        "correctable_codewords": 7,
+        "data_codewords": 55,
+        "ec_codewords": 15,
+        "ec_per_block": 15,
+        "level": "L",
+        "total_codewords": 70,
+        "version": 3
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "26 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "53 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 3 level M": {
+      "layout": {
+        "blocks": 1,
+        "correctable_codewords": 13,
+        "data_codewords": 44,
+        "ec_codewords": 26,
+        "ec_per_block": 26,
+        "level": "M",
+        "total_codewords": 70,
+        "version": 3
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "21 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "42 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 3 level Q": {
+      "layout": {
+        "blocks": 2,
+        "correctable_codewords": 18,
+        "data_codewords": 34,
+        "ec_codewords": 36,
+        "ec_per_block": 18,
+        "level": "Q",
+        "total_codewords": 70,
+        "version": 3
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "16 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "32 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 4 level H": {
+      "layout": {
+        "blocks": 4,
+        "correctable_codewords": 32,
+        "data_codewords": 36,
+        "ec_codewords": 64,
+        "ec_per_block": 16,
+        "level": "H",
+        "total_codewords": 100,
+        "version": 4
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "17 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "34 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 4 level L": {
+      "layout": {
+        "blocks": 1,
+        "correctable_codewords": 10,
+        "data_codewords": 80,
+        "ec_codewords": 20,
+        "ec_per_block": 20,
+        "level": "L",
+        "total_codewords": 100,
+        "version": 4
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "39 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "78 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 4 level M": {
+      "layout": {
+        "blocks": 2,
+        "correctable_codewords": 18,
+        "data_codewords": 64,
+        "ec_codewords": 36,
+        "ec_per_block": 18,
+        "level": "M",
+        "total_codewords": 100,
+        "version": 4
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "31 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "62 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 4 level Q": {
+      "layout": {
+        "blocks": 2,
+        "correctable_codewords": 26,
+        "data_codewords": 48,
+        "ec_codewords": 52,
+        "ec_per_block": 26,
+        "level": "Q",
+        "total_codewords": 100,
+        "version": 4
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "23 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "46 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 5 level H": {
+      "layout": {
+        "blocks": 4,
+        "correctable_codewords": 44,
+        "data_codewords": 46,
+        "ec_codewords": 88,
+        "ec_per_block": 22,
+        "level": "H",
+        "total_codewords": 134,
+        "version": 5
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "22 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "44 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 5 level L": {
+      "layout": {
+        "blocks": 1,
+        "correctable_codewords": 13,
+        "data_codewords": 108,
+        "ec_codewords": 26,
+        "ec_per_block": 26,
+        "level": "L",
+        "total_codewords": 134,
+        "version": 5
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "106 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "53 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 5 level M": {
+      "layout": {
+        "blocks": 2,
+        "correctable_codewords": 24,
+        "data_codewords": 86,
+        "ec_codewords": 48,
+        "ec_per_block": 24,
+        "level": "M",
+        "total_codewords": 134,
+        "version": 5
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "42 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "84 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 5 level Q": {
+      "layout": {
+        "blocks": 4,
+        "correctable_codewords": 36,
+        "data_codewords": 62,
+        "ec_codewords": 72,
+        "ec_per_block": 18,
+        "level": "Q",
+        "total_codewords": 134,
+        "version": 5
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "30 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "60 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 6 level H": {
+      "layout": {
+        "blocks": 4,
+        "correctable_codewords": 56,
+        "data_codewords": 60,
+        "ec_codewords": 112,
+        "ec_per_block": 28,
+        "level": "H",
+        "total_codewords": 172,
+        "version": 6
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "29 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "58 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 6 level L": {
+      "layout": {
+        "blocks": 2,
+        "correctable_codewords": 18,
+        "data_codewords": 136,
+        "ec_codewords": 36,
+        "ec_per_block": 18,
+        "level": "L",
+        "total_codewords": 172,
+        "version": 6
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "134 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "67 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 6 level M": {
+      "layout": {
+        "blocks": 4,
+        "correctable_codewords": 32,
+        "data_codewords": 108,
+        "ec_codewords": 64,
+        "ec_per_block": 16,
+        "level": "M",
+        "total_codewords": 172,
+        "version": 6
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "106 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "53 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 6 level Q": {
+      "layout": {
+        "blocks": 4,
+        "correctable_codewords": 48,
+        "data_codewords": 76,
+        "ec_codewords": 96,
+        "ec_per_block": 24,
+        "level": "Q",
+        "total_codewords": 172,
+        "version": 6
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "37 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "74 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 7 level H": {
+      "layout": {
+        "blocks": 5,
+        "correctable_codewords": 65,
+        "data_codewords": 66,
+        "ec_codewords": 130,
+        "ec_per_block": 26,
+        "level": "H",
+        "total_codewords": 196,
+        "version": 7
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "32 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "64 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 7 level L": {
+      "layout": {
+        "blocks": 2,
+        "correctable_codewords": 20,
+        "data_codewords": 156,
+        "ec_codewords": 40,
+        "ec_per_block": 20,
+        "level": "L",
+        "total_codewords": 196,
+        "version": 7
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "154 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "77 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 7 level M": {
+      "layout": {
+        "blocks": 4,
+        "correctable_codewords": 36,
+        "data_codewords": 124,
+        "ec_codewords": 72,
+        "ec_per_block": 18,
+        "level": "M",
+        "total_codewords": 196,
+        "version": 7
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "122 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "61 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 7 level Q": {
+      "layout": {
+        "blocks": 6,
+        "correctable_codewords": 54,
+        "data_codewords": 88,
+        "ec_codewords": 108,
+        "ec_per_block": 18,
+        "level": "Q",
+        "total_codewords": 196,
+        "version": 7
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "43 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "86 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 8 level H": {
+      "layout": {
+        "blocks": 6,
+        "correctable_codewords": 78,
+        "data_codewords": 86,
+        "ec_codewords": 156,
+        "ec_per_block": 26,
+        "level": "H",
+        "total_codewords": 242,
+        "version": 8
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "42 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "84 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 8 level L": {
+      "layout": {
+        "blocks": 2,
+        "correctable_codewords": 24,
+        "data_codewords": 194,
+        "ec_codewords": 48,
+        "ec_per_block": 24,
+        "level": "L",
+        "total_codewords": 242,
+        "version": 8
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "192 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "96 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 8 level M": {
+      "layout": {
+        "blocks": 4,
+        "correctable_codewords": 44,
+        "data_codewords": 154,
+        "ec_codewords": 88,
+        "ec_per_block": 22,
+        "level": "M",
+        "total_codewords": 242,
+        "version": 8
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "152 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "76 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 8 level Q": {
+      "layout": {
+        "blocks": 6,
+        "correctable_codewords": 66,
+        "data_codewords": 110,
+        "ec_codewords": 132,
+        "ec_per_block": 22,
+        "level": "Q",
+        "total_codewords": 242,
+        "version": 8
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "108 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "54 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 9 level H": {
+      "layout": {
+        "blocks": 8,
+        "correctable_codewords": 96,
+        "data_codewords": 100,
+        "ec_codewords": 192,
+        "ec_per_block": 24,
+        "level": "H",
+        "total_codewords": 292,
+        "version": 9
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "49 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "98 bytes": {
+          "level_read": "H",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 9 level L": {
+      "layout": {
+        "blocks": 2,
+        "correctable_codewords": 30,
+        "data_codewords": 232,
+        "ec_codewords": 60,
+        "ec_per_block": 30,
+        "level": "L",
+        "total_codewords": 292,
+        "version": 9
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "115 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "230 bytes": {
+          "level_read": "L",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 9 level M": {
+      "layout": {
+        "blocks": 5,
+        "correctable_codewords": 55,
+        "data_codewords": 182,
+        "ec_codewords": 110,
+        "ec_per_block": 22,
+        "level": "M",
+        "total_codewords": 292,
+        "version": 9
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "180 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "90 bytes": {
+          "level_read": "M",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    },
+    "version 9 level Q": {
+      "layout": {
+        "blocks": 8,
+        "correctable_codewords": 80,
+        "data_codewords": 132,
+        "ec_codewords": 160,
+        "ec_per_block": 20,
+        "level": "Q",
+        "total_codewords": 292,
+        "version": 9
+      },
+      "payloads": {
+        "1 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "130 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        },
+        "65 bytes": {
+          "level_read": "Q",
+          "mask_read_matches_mask_used": true,
+          "read_back": true
+        }
+      }
+    }
+  },
+  "error_correction_boundary": {
+    "10 correction codewords": {
+      "capacity": 5,
+      "trials": {
+        "0 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 0
+        },
+        "1 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 1
+        },
+        "2 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 2
+        },
+        "3 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 3
+        },
+        "4 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 4
+        },
+        "5 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 5
+        },
+        "6 errors": {
+          "recovered": false,
+          "refused": true,
+          "reported_error_count": -1
+        }
+      }
+    },
+    "16 correction codewords": {
+      "capacity": 8,
+      "trials": {
+        "0 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 0
+        },
+        "1 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 1
+        },
+        "2 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 2
+        },
+        "3 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 3
+        },
+        "4 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 4
+        },
+        "5 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 5
+        },
+        "6 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 6
+        },
+        "7 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 7
+        },
+        "8 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 8
+        },
+        "9 errors": {
+          "recovered": false,
+          "refused": true,
+          "reported_error_count": -1
+        }
+      }
+    },
+    "22 correction codewords": {
+      "capacity": 11,
+      "trials": {
+        "0 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 0
+        },
+        "1 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 1
+        },
+        "10 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 10
+        },
+        "11 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 11
+        },
+        "12 errors": {
+          "recovered": false,
+          "refused": true,
+          "reported_error_count": -1
+        },
+        "2 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 2
+        },
+        "3 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 3
+        },
+        "4 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 4
+        },
+        "5 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 5
+        },
+        "6 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 6
+        },
+        "7 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 7
+        },
+        "8 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 8
+        },
+        "9 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 9
+        }
+      }
+    },
+    "26 correction codewords": {
+      "capacity": 13,
+      "trials": {
+        "0 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 0
+        },
+        "1 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 1
+        },
+        "10 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 10
+        },
+        "11 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 11
+        },
+        "12 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 12
+        },
+        "13 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 13
+        },
+        "14 errors": {
+          "recovered": false,
+          "refused": true,
+          "reported_error_count": -1
+        },
+        "2 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 2
+        },
+        "3 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 3
+        },
+        "4 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 4
+        },
+        "5 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 5
+        },
+        "6 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 6
+        },
+        "7 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 7
+        },
+        "8 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 8
+        },
+        "9 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 9
+        }
+      }
+    },
+    "28 correction codewords": {
+      "capacity": 14,
+      "trials": {
+        "0 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 0
+        },
+        "1 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 1
+        },
+        "10 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 10
+        },
+        "11 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 11
+        },
+        "12 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 12
+        },
+        "13 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 13
+        },
+        "14 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 14
+        },
+        "15 errors": {
+          "recovered": false,
+          "refused": true,
+          "reported_error_count": -1
+        },
+        "2 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 2
+        },
+        "3 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 3
+        },
+        "4 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 4
+        },
+        "5 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 5
+        },
+        "6 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 6
+        },
+        "7 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 7
+        },
+        "8 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 8
+        },
+        "9 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 9
+        }
+      }
+    },
+    "30 correction codewords": {
+      "capacity": 15,
+      "trials": {
+        "0 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 0
+        },
+        "1 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 1
+        },
+        "10 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 10
+        },
+        "11 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 11
+        },
+        "12 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 12
+        },
+        "13 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 13
+        },
+        "14 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 14
+        },
+        "15 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 15
+        },
+        "16 errors": {
+          "recovered": false,
+          "refused": true,
+          "reported_error_count": -1
+        },
+        "2 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 2
+        },
+        "3 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 3
+        },
+        "4 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 4
+        },
+        "5 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 5
+        },
+        "6 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 6
+        },
+        "7 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 7
+        },
+        "8 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 8
+        },
+        "9 errors": {
+          "recovered": true,
+          "refused": false,
+          "reported_error_count": 9
+        }
+      }
+    }
+  },
+  "how_much_maze_the_budget_buys": {
+    "0 branch attempts": {
+      "branches": 118,
+      "budget_per_block": 13,
+      "corrupted_codewords": 7,
+      "dead_ends": 56,
+      "independent_loops": 45,
+      "modules_flipped": 9,
+      "refused_for_want_of_budget": 0,
+      "solution_length": 103,
+      "still_decodes": true,
+      "walkable_cells": 315,
+      "worst_block": 2
+    },
+    "10 branch attempts": {
+      "branches": 148,
+      "budget_per_block": 13,
+      "corrupted_codewords": 14,
+      "dead_ends": 62,
+      "independent_loops": 59,
+      "modules_flipped": 18,
+      "refused_for_want_of_budget": 0,
+      "solution_length": 103,
+      "still_decodes": true,
+      "walkable_cells": 382,
+      "worst_block": 4
+    },
+    "120 branch attempts": {
+      "branches": 269,
+      "budget_per_block": 13,
+      "corrupted_codewords": 58,
+      "dead_ends": 115,
+      "independent_loops": 106,
+      "modules_flipped": 85,
+      "refused_for_want_of_budget": 0,
+      "solution_length": 103,
+      "still_decodes": true,
+      "walkable_cells": 647,
+      "worst_block": 12
+    },
+    "40 branch attempts": {
+      "branches": 175,
+      "budget_per_block": 13,
+      "corrupted_codewords": 27,
+      "dead_ends": 80,
+      "independent_loops": 67,
+      "modules_flipped": 36,
+      "refused_for_want_of_budget": 0,
+      "solution_length": 103,
+      "still_decodes": true,
+      "walkable_cells": 459,
+      "worst_block": 8
+    },
+    "400 branch attempts": {
+      "branches": 411,
+      "budget_per_block": 13,
+      "corrupted_codewords": 78,
+      "dead_ends": 112,
+      "independent_loops": 209,
+      "modules_flipped": 165,
+      "refused_for_want_of_budget": 16,
+      "solution_length": 85,
+      "still_decodes": true,
+      "walkable_cells": 764,
+      "worst_block": 13
+    }
+  },
+  "spare_bits_after_a_full_payload": {
+    "distinct_values": [
+      4
+    ],
+    "per_combination": {
+      "version 1 level H": 4,
+      "version 1 level L": 4,
+      "version 1 level M": 4,
+      "version 1 level Q": 4,
+      "version 10 level H": 4,
+      "version 10 level L": 4,
+      "version 10 level M": 4,
+      "version 10 level Q": 4,
+      "version 2 level H": 4,
+      "version 2 level L": 4,
+      "version 2 level M": 4,
+      "version 2 level Q": 4,
+      "version 3 level H": 4,
+      "version 3 level L": 4,
+      "version 3 level M": 4,
+      "version 3 level Q": 4,
+      "version 4 level H": 4,
+      "version 4 level L": 4,
+      "version 4 level M": 4,
+      "version 4 level Q": 4,
+      "version 5 level H": 4,
+      "version 5 level L": 4,
+      "version 5 level M": 4,
+      "version 5 level Q": 4,
+      "version 6 level H": 4,
+      "version 6 level L": 4,
+      "version 6 level M": 4,
+      "version 6 level Q": 4,
+      "version 7 level H": 4,
+      "version 7 level L": 4,
+      "version 7 level M": 4,
+      "version 7 level Q": 4,
+      "version 8 level H": 4,
+      "version 8 level L": 4,
+      "version 8 level M": 4,
+      "version 8 level Q": 4,
+      "version 9 level H": 4,
+      "version 9 level L": 4,
+      "version 9 level M": 4,
+      "version 9 level Q": 4
+    },
+    "the_guard_can_bind": false
+  },
+  "the_alignment_table_for_every_version": {
+    "against the published centres": {
+      "13": true,
+      "20": true
+    },
+    "every version this program will answer for": {
+      "1": [],
+      "10": [
+        6,
+        28,
+        50
+      ],
+      "11": [
+        6,
+        30,
+        54
+      ],
+      "12": [
+        6,
+        32,
+        58
+      ],
+      "13": [
+        6,
+        34,
+        62
+      ],
+      "14": [
+        6,
+        26,
+        46,
+        66
+      ],
+      "15": [
+        6,
+        26,
+        48,
+        70
+      ],
+      "16": [
+        6,
+        30,
+        52,
+        74
+      ],
+      "17": [
+        6,
+        30,
+        54,
+        78
+      ],
+      "18": [
+        6,
+        30,
+        56,
+        82
+      ],
+      "19": [
+        6,
+        34,
+        60,
+        86
+      ],
+      "2": [
+        6,
+        18
+      ],
+      "20": [
+        6,
+        34,
+        62,
+        90
+      ],
+      "3": [
+        6,
+        22
+      ],
+      "4": [
+        6,
+        26
+      ],
+      "5": [
+        6,
+        30
+      ],
+      "6": [
+        6,
+        34
+      ],
+      "7": [
+        6,
+        22,
+        38
+      ],
+      "8": [
+        6,
+        24,
+        42
+      ],
+      "9": [
+        6,
+        26,
+        46
+      ]
+    },
+    "highest_version_the_rule_is_checked_to": 20,
+    "versions above the verified range": {
+      "27": "refused",
+      "32": "refused",
+      "39": "refused",
+      "40": "refused"
+    }
+  },
+  "the_codes": {
+    "format": {
+      "all_fifteen_bits": true,
+      "distinct": 32,
+      "minimum_distance": 7,
+      "words": 32
+    },
+    "version": {
+      "all_eighteen_bits": true,
+      "distinct": 34,
+      "minimum_distance": 8,
+      "words": 34
+    }
+  },
+  "the_command_line_checks_its_own_work": {
+    "a_ruined_symbol_does_not": true,
+    "an_empty_path_is_falsy": true,
+    "the_carving_decodes": true,
+    "the_carving_is_solvable": true
+  },
+  "the_default_quiet_zone": {
+    "declared_width": 29,
+    "default": 4,
+    "svg_width_at_scale_one": 29,
+    "symbol_modules": 21
+  },
+  "the_field": {
+    "distinct_powers_of_the_generator": 255,
+    "generator_returns_to_one_after": 255,
+    "non_zero_elements_with_an_inverse": 255,
+    "pairs_that_commute_of_those_tried": 4472,
+    "pairs_where_division_undoes_multiplication": 4386,
+    "primitive_polynomial": "0x11d"
+  },
+  "the_format_mask_constant": {
+    "an_all_zero_format_does_not_produce_an_all_zero_word": true,
+    "level_L_mask_0": "111011111000100",
+    "level_M_mask_0": "101010000010010",
+    "level_M_mask_0_is_the_published_word": true,
+    "mask_constant": "101010000010010"
+  },
+  "the_geometry": {
+    "block_table_disagreements": [],
+    "per_version": {
+      "version 1": {
+        "alignment_centres": [],
+        "codewords": 26,
+        "data_modules": 208,
+        "function_modules": 233,
+        "remainder_bits": 0,
+        "size": 21,
+        "zigzag_covers_every_data_module_once": true
+      },
+      "version 10": {
+        "alignment_centres": [
+          6,
+          28,
+          50
+        ],
+        "codewords": 346,
+        "data_modules": 2768,
+        "function_modules": 481,
+        "remainder_bits": 0,
+        "size": 57,
+        "zigzag_covers_every_data_module_once": true
+      },
+      "version 2": {
+        "alignment_centres": [
+          6,
+          18
+        ],
+        "codewords": 44,
+        "data_modules": 359,
+        "function_modules": 266,
+        "remainder_bits": 7,
+        "size": 25,
+        "zigzag_covers_every_data_module_once": true
+      },
+      "version 3": {
+        "alignment_centres": [
+          6,
+          22
+        ],
+        "codewords": 70,
+        "data_modules": 567,
+        "function_modules": 274,
+        "remainder_bits": 7,
+        "size": 29,
+        "zigzag_covers_every_data_module_once": true
+      },
+      "version 4": {
+        "alignment_centres": [
+          6,
+          26
+        ],
+        "codewords": 100,
+        "data_modules": 807,
+        "function_modules": 282,
+        "remainder_bits": 7,
+        "size": 33,
+        "zigzag_covers_every_data_module_once": true
+      },
+      "version 5": {
+        "alignment_centres": [
+          6,
+          30
+        ],
+        "codewords": 134,
+        "data_modules": 1079,
+        "function_modules": 290,
+        "remainder_bits": 7,
+        "size": 37,
+        "zigzag_covers_every_data_module_once": true
+      },
+      "version 6": {
+        "alignment_centres": [
+          6,
+          34
+        ],
+        "codewords": 172,
+        "data_modules": 1383,
+        "function_modules": 298,
+        "remainder_bits": 7,
+        "size": 41,
+        "zigzag_covers_every_data_module_once": true
+      },
+      "version 7": {
+        "alignment_centres": [
+          6,
+          22,
+          38
+        ],
+        "codewords": 196,
+        "data_modules": 1568,
+        "function_modules": 457,
+        "remainder_bits": 0,
+        "size": 45,
+        "zigzag_covers_every_data_module_once": true
+      },
+      "version 8": {
+        "alignment_centres": [
+          6,
+          24,
+          42
+        ],
+        "codewords": 242,
+        "data_modules": 1936,
+        "function_modules": 465,
+        "remainder_bits": 0,
+        "size": 49,
+        "zigzag_covers_every_data_module_once": true
+      },
+      "version 9": {
+        "alignment_centres": [
+          6,
+          26,
+          46
+        ],
+        "codewords": 292,
+        "data_modules": 2336,
+        "function_modules": 473,
+        "remainder_bits": 0,
+        "size": 53,
+        "zigzag_covers_every_data_module_once": true
+      }
+    }
+  },
+  "the_padding": {
+    "a nearly empty symbol": {
+      "pad_bytes_seen": [
+        "0x80",
+        "0xec",
+        "0x11",
+        "0xec",
+        "0x11",
+        "0xec",
+        "0x11",
+        "0xec"
+      ],
+      "they_alternate": true
+    },
+    "version 1 filled to capacity": {
+      "payload_bytes": 7,
+      "problem": "",
+      "read_back": true
+    },
+    "version 10 filled to capacity": {
+      "payload_bytes": 119,
+      "problem": "",
+      "read_back": true
+    },
+    "version 5 filled to capacity": {
+      "payload_bytes": 44,
+      "problem": "",
+      "read_back": true
+    }
+  },
+  "the_run_checks_its_own_work": {
+    "a good carving passes": true,
+    "a ruined symbol fails": false,
+    "a symbol saying something else fails": false,
+    "an unsolvable maze fails": false
+  },
+  "the_stranded_strips": {
+    "version 1": {
+      "carvable_modules": 208,
+      "largest_connected_region": 160,
+      "stranded": 48,
+      "stranded_above_the_timing_row": 24,
+      "stranded_left_of_the_timing_column": 24
+    },
+    "version 10": {
+      "carvable_modules": 2768,
+      "largest_connected_region": 2344,
+      "stranded": 424,
+      "stranded_above_the_timing_row": 212,
+      "stranded_left_of_the_timing_column": 212
+    },
+    "version 2": {
+      "carvable_modules": 359,
+      "largest_connected_region": 263,
+      "stranded": 96,
+      "stranded_above_the_timing_row": 48,
+      "stranded_left_of_the_timing_column": 48
+    },
+    "version 3": {
+      "carvable_modules": 567,
+      "largest_connected_region": 423,
+      "stranded": 144,
+      "stranded_above_the_timing_row": 72,
+      "stranded_left_of_the_timing_column": 72
+    },
+    "version 4": {
+      "carvable_modules": 807,
+      "largest_connected_region": 615,
+      "stranded": 192,
+      "stranded_above_the_timing_row": 96,
+      "stranded_left_of_the_timing_column": 96
+    },
+    "version 5": {
+      "carvable_modules": 1079,
+      "largest_connected_region": 839,
+      "stranded": 240,
+      "stranded_above_the_timing_row": 120,
+      "stranded_left_of_the_timing_column": 120
+    },
+    "version 6": {
+      "carvable_modules": 1383,
+      "largest_connected_region": 1095,
+      "stranded": 288,
+      "stranded_above_the_timing_row": 144,
+      "stranded_left_of_the_timing_column": 144
+    },
+    "version 7": {
+      "carvable_modules": 1568,
+      "largest_connected_region": 1288,
+      "stranded": 280,
+      "stranded_above_the_timing_row": 140,
+      "stranded_left_of_the_timing_column": 140
+    },
+    "version 8": {
+      "carvable_modules": 1936,
+      "largest_connected_region": 1608,
+      "stranded": 328,
+      "stranded_above_the_timing_row": 164,
+      "stranded_left_of_the_timing_column": 164
+    },
+    "version 9": {
+      "carvable_modules": 2336,
+      "largest_connected_region": 1960,
+      "stranded": 376,
+      "stranded_above_the_timing_row": 188,
+      "stranded_left_of_the_timing_column": 188
+    }
+  },
+  "the_svg": {
+    "annotated_file_reaches_for_the_network": false,
+    "annotated_file_says_it_is_not_scannable": true,
+    "dark_modules_in_the_symbol": 744,
+    "plain_file_reaches_for_the_network": false,
+    "rectangles_in_the_plain_file": 744
+  },
+  "the_timing_and_the_dark_module": {
+    "version 1": {
+      "finder_centre_is_dark": true,
+      "separator_is_light": true,
+      "the_module_that_is_always_dark_is_dark": true,
+      "timing_column_alternates": true,
+      "timing_row_alternates": true,
+      "timing_row_starts_dark_at_an_even_coordinate": true
+    },
+    "version 10": {
+      "finder_centre_is_dark": true,
+      "separator_is_light": true,
+      "the_module_that_is_always_dark_is_dark": true,
+      "timing_column_alternates": true,
+      "timing_row_alternates": true,
+      "timing_row_starts_dark_at_an_even_coordinate": true
+    },
+    "version 6": {
+      "finder_centre_is_dark": true,
+      "separator_is_light": true,
+      "the_module_that_is_always_dark_is_dark": true,
+      "timing_column_alternates": true,
+      "timing_row_alternates": true,
+      "timing_row_starts_dark_at_an_even_coordinate": true
+    }
+  },
+  "the_zigzag_structure": {
+    "version 1": {
+      "column_pairs": 10,
+      "direction_changes": 9,
+      "every_pair_reverses_the_last": true,
+      "first_module": [
+        20,
+        20
+      ],
+      "modules": 208,
+      "never_uses_column_six": true,
+      "starts_at_the_bottom_right": true,
+      "steps_from_a_right_module_to_the_left_one_beside_it": 111
+    },
+    "version 10": {
+      "column_pairs": 28,
+      "direction_changes": 27,
+      "every_pair_reverses_the_last": true,
+      "first_module": [
+        56,
+        56
+      ],
+      "modules": 2768,
+      "never_uses_column_six": true,
+      "starts_at_the_bottom_right": true,
+      "steps_from_a_right_module_to_the_left_one_beside_it": 1393
+    },
+    "version 5": {
+      "column_pairs": 18,
+      "direction_changes": 17,
+      "every_pair_reverses_the_last": true,
+      "first_module": [
+        36,
+        36
+      ],
+      "modules": 1079,
+      "never_uses_column_six": true,
+      "starts_at_the_bottom_right": true,
+      "steps_from_a_right_module_to_the_left_one_beside_it": 552
+    },
+    "version 7": {
+      "column_pairs": 22,
+      "direction_changes": 21,
+      "every_pair_reverses_the_last": true,
+      "first_module": [
+        44,
+        44
+      ],
+      "modules": 1568,
+      "never_uses_column_six": true,
+      "starts_at_the_bottom_right": true,
+      "steps_from_a_right_module_to_the_left_one_beside_it": 787
+    }
+  },
+  "what_the_carving_never_touches": {
+    "version 10": {
+      "flips_inside_the_function_patterns": 0,
+      "function_modules": 481,
+      "function_modules_changed": 0
+    },
+    "version 6": {
+      "flips_inside_the_function_patterns": 0,
+      "function_modules": 298,
+      "function_modules_changed": 0
+    },
+    "version 8": {
+      "flips_inside_the_function_patterns": 0,
+      "function_modules": 465,
+      "function_modules_changed": 0
+    }
+  },
+  "what_the_decoder_does_with_too_much_damage": {
+    "16 correction codewords": {
+      "by_error_count": {
+        "10 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "11 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "12 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "13 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "14 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "15 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "16 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "17 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "18 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "19 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "8 errors": {
+          "recovered": 12,
+          "refused": 0,
+          "wrong": 0
+        },
+        "9 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        }
+      },
+      "capacity": 8,
+      "totals": {
+        "recovered": 12,
+        "refused": 132,
+        "wrong": 0
+      }
+    },
+    "26 correction codewords": {
+      "by_error_count": {
+        "13 errors": {
+          "recovered": 12,
+          "refused": 0,
+          "wrong": 0
+        },
+        "14 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "15 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "16 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "17 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "18 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "19 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "20 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "21 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "22 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "23 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "24 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        }
+      },
+      "capacity": 13,
+      "totals": {
+        "recovered": 12,
+        "refused": 132,
+        "wrong": 0
+      }
+    },
+    "30 correction codewords": {
+      "by_error_count": {
+        "15 errors": {
+          "recovered": 12,
+          "refused": 0,
+          "wrong": 0
+        },
+        "16 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "17 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "18 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "19 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "20 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "21 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "22 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "23 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "24 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "25 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        },
+        "26 errors": {
+          "recovered": 0,
+          "refused": 12,
+          "wrong": 0
+        }
+      },
+      "capacity": 15,
+      "totals": {
+        "recovered": 12,
+        "refused": 132,
+        "wrong": 0
+      }
+    }
+  },
+  "which_polynomials_generate_the_field": {
+    "0x100": false,
+    "0x101": false,
+    "0x11b": true,
+    "0x11d": true,
+    "0x12b": true,
+    "0x12d": true
+  }
+}
